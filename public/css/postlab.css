@@ -1,0 +1,210 @@
+html, body {
+    //background-color: #fff;
+    //color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    //font-weight: 100;
+    height: 100vh;
+    //margin: 0;
+}
+
+.mycontainer
+{
+    margin-top: -10px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.mycontainer-fluid
+{
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mypagecontainer
+{
+    margin-top: -20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.border-radius-remover
+{
+    border-radius: 0 0 0 0;
+}
+
+.field-border, 
+field-border:focus,
+field-border:focus
+{
+    height: 50px;
+    font-size: large;
+    border: 0;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #999999;
+}
+
+.bg-black
+{
+    background-color: #000;
+    color: #ffffff;
+}
+
+.btn-login
+{
+    background-color: #cccccc;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.btn-login:hover
+{
+    background-color: #dc0000;
+    color: #ffffff;
+}
+
+.btn-register
+{
+    background-color: #000;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.btn-register:hover
+{
+    background-color: #dc0000;
+}
+
+.forgot-password
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: #999999;
+}
+.forgot-password:hover
+{
+    color: #dc0000;
+    text-decoration: none;
+}
+
+.form-errors
+{
+    text-align: left;
+}
+
+#imageLogo
+{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+img.post-logo
+{
+    margin-top: 50px;
+    max-height: 300px;
+    max-width: 250px;
+    min-height: 100px;
+    min-width: 50px;
+}
+
+img.page-logo
+{
+    max-height: 200px;
+    max-width: 150px;
+    min-height: 50px;
+    min-width: 10px;
+}
+
+.package-row
+{
+    padding: 10px;
+}
+
+#package-select
+{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.package-size
+{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.select-package img {
+    padding:1px;
+    border:1px solid #021a40;
+    border-radius: 150px;
+    background-color: #ff3939;
+}
+
+#6kg
+{
+    text-align: right;
+}
+
+#123kg
+{
+    text-align: left;
+}
+
+.prev-next
+{
+    padding-top: 5px;
+}
+
+.prev-next-btn
+{
+    max-width: 70px; 
+    max-height: 50px;
+}
+
+
+.footer
+{
+    height: auto;
+    position: relative;
+    background-color: #666666;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-link
+{
+    text-decoration: none;
+}
+
+.footer-link:hover
+{
+    text-decoration: none;
+}
+
+.copyright
+{
+    right: 0;
+    background-color: #000000; 
+    height: 20px;
+    padding: 2px; 
+    padding-right: 14px; 
+    position: static; 
+    bottom: 0;
+}
+
+
+
+@media(max-width:768px) {
+
+    #package-select
+    {
+        display: none;
+    }
+
+
+}
